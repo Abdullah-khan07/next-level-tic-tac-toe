@@ -1,5 +1,5 @@
 name: tic_tac_toe
-description: A next-level Tic Tac Toe with animations and glassmorphism.
+description: A next-level Tic Tac Toe with animations and glassmorphism. 🎮✨
 publish_to: "none"
 version: 1.0.0+1
 
@@ -11,15 +11,11 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.8
   audioplayers: ^5.2.1
+  animated_text_kit: ^4.2.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-  flutter_launcher_icons: ^0.13.1
+  flutter_launcher_icons: ^0.13.1 # ✅ Add this
 
-flutter_icons:
-  android: true
-  ios: true
-  image_path: "assets/icon/tic-tac-toe-icon.png"
-  remove_alpha_ios: true
